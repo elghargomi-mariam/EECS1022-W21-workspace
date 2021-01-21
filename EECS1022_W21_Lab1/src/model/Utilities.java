@@ -24,6 +24,16 @@ public class Utilities {
 		 *    Instead, refer to the input parameters of this method.   
 		 */
 		
+		int term1 = ft;
+		int term2 = ft * ratio;
+		int term3 = term2 * ratio;
+		int term4 = term3 * ratio;
+		int term5 = term4 * ratio;
+		
+		double sum = term1 + term2 + term3 + term4 + term5;
+		double avg = sum/5;
+		
+		result = "[" + term1 + "]" +"[" + term2 + "]" +"[" + term3 + "]"+"[" + term4 + "]"+"[" + term5 + "] has average " + avg;
 		
 		/* Your implementation ends here. */
 		
@@ -48,6 +58,10 @@ public class Utilities {
 		 *    Instead, refer to the input parameters of this method.   
 		 */
 		
+		double kilo = weight * 0.4536;
+		double meter = height * 0.0254;
+		double square = meter*meter;
+		result = kilo/square;
 		
 		
 		/* Your implementation ends here. */
@@ -73,7 +87,19 @@ public class Utilities {
 		 * 2. No Scanner operations should appear here (e.g., input.nextInt()).
 		 *    Instead, refer to the input parameters of this method.   
 		 */
-		
+
+        int day = seconds/ (24 * 3600); 
+        
+        seconds = seconds % (24 * 3600); 
+        int hour = seconds/ 3600; 
+      
+        seconds %= 3600; 
+        int minutes = seconds / 60 ; 
+      
+        seconds = seconds % 60; 
+        int secon = seconds;
+          
+        result =  day + " days " + hour  + " hours " + minutes + " minutes " + secon + " seconds"; 
 		
 		
 		/* Your implementation ends here. */
