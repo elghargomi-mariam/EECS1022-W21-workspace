@@ -187,5 +187,12 @@ public class TestUtilities {
 		int[] expected = {};
 		assertArrayEquals(expected, result);
 	}
+	@Test
+	public void test_getGroupedNumbers_051() {
+		int[] input = {1, 1, 1};
+		int[] result = Utilities.getGroupedNumbers(input);
+		int[] expected = {1, 1, 1};
+		assertArrayEquals(expected, result);
+	}
 	
 }
