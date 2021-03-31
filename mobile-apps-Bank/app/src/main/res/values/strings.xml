@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Bank App - Mariam El Ghargomi (216980161)</string>
+    <string-array name="Type">
+        <item>Deposit</item>
+        <item>Withdraw</item>
+        <item>Transfer</item>
+        <item>Print Statement</item>
+    </string-array>
+</resources>
